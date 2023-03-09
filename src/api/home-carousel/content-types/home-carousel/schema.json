@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_carousels",
+  "info": {
+    "singularName": "home-carousel",
+    "pluralName": "home-carousels",
+    "displayName": "Home Carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "small_title": {
+      "type": "string"
+    },
+    "big_title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

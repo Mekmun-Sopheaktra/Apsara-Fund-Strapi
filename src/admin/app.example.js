@@ -1,0 +1,47 @@
+const config = {
+  locales: [
+    // 'ar',
+    // 'fr',
+    // 'cs',
+    // 'de',
+    // 'dk',
+    // 'es',
+    // 'he',
+    // 'id',
+    // 'it',
+    // 'ja',
+    // 'ko',
+    // 'ms',
+    // 'nl',
+    // 'no',
+    // 'pl',
+    // 'pt-BR',
+    // 'pt',
+    // 'ru',
+    // 'sk',
+    // 'sv',
+    // 'th',
+    // 'tr',
+    // 'uk',
+    // 'vi',
+    // 'zh-Hans',
+    // 'zh',
+  ],
+  translations: {
+    en : {
+      'app.name': 'Apsara',
+      'app.description': 'Apsara Fund Management',
+      'app.components.LeftMenu.navbrand.title': 'Apsara',
+      'app.components.LeftMenu.navbrand.title': 'Apsara Fund Portal'
+    }
+  },
+};
+
+const bootstrap = (app) => {
+  console.log(app);
+};
+
+export default {
+  config,
+  bootstrap,
+};

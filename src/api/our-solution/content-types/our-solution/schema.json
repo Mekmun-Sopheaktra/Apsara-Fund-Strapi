@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_solutions",
+  "info": {
+    "singularName": "our-solution",
+    "pluralName": "our-solutions",
+    "displayName": "Our Solution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
